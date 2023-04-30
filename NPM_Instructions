@@ -11,3 +11,9 @@
 //manual approach (create package.json in the root, create properties and ets)
 //npm init (step by step, press enter to skip)
 //npm init -y(default property)
+
+
+//nodemon Instructions
+
+//nodemon used to run server continoust to use nodemon --> npm run {key_name}
+//rpm run dev --> dev is key name in package.json to run the main/mentioned file
