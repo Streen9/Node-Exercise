@@ -13,7 +13,17 @@ for that problem the solution is {"asynchrnous callbacks"}
 
 eventLoop:
 
+first:
 --> js sent o/p to stack once it's done it console the o/p and remove from stack.
 --> once the callback o/p went to stack that's not available in browser it went to "WebApi's" tab and continue the application
---> after webapi sent the callbacck to queue and
+--> after webapi sent the callback to queue and
 --> here the event loop involve it takes the queue first o/p and checks wheather stack is empty or not if stacks empty it sends the queue first o/p to stack and runs once the stack o/p completes it removes from stack
+
+
+second:
+-> Request send if it's callback request it registers in webapi
+-> after while sending the callback it wont directly sends to js console it sends to event loop
+-> event loop checks wheather stack is empty or not
+-> once stack is empty the first queue callback will be executed
+
+Note: callback is nothing but asynchrnous functions in js
