@@ -1,0 +1,19 @@
+first learn about stack how it works and it operations
+
+//Blocking -- > when things are slow (doing time taking operation ex: running image Processing or running a loop 16k times)
+
+
+synchronus --> to run line by line it goes other operation once the operation done top of the stack in js. 
+
+if operation is on hold/processing it wont move from that operation and the application will shutdown
+
+for that problem the solution is {"asynchrnous callbacks"}
+
+
+
+eventLoop:
+
+--> js sent o/p to stack once it's done it console the o/p and remove from stack.
+--> once the callback o/p went to stack that's not available in browser it went to "WebApi's" tab and continue the application
+--> after webapi sent the callbacck to queue and
+--> here the event loop involve it takes the queue first o/p and checks wheather stack is empty or not if stacks empty it sends the queue first o/p to stack and runs once the stack o/p completes it removes from stack
