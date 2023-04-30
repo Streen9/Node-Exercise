@@ -1,0 +1,2 @@
+this is sending the data to you from : , C:\Users\kalid\Desktop\node\fs-sync.js
+new line through appending

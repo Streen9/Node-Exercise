@@ -1,0 +1,2 @@
+This is async file created write file
+ appending new line by flag {flag:'a'}
