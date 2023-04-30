@@ -4,11 +4,13 @@
   "description": "Excersises of node",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kali",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "nodemon": "^2.0.22"
   }
 }
