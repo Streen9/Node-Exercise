@@ -1,0 +1,4 @@
+Blocking code is to hold o/p until one thing is done other o/p will be also on hold
+
+if one page is procesing something in background even if try to move or redirect to someother it won't work until 
+the background operation completes

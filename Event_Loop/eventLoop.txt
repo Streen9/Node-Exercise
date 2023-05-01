@@ -1,7 +1,7 @@
 first learn about stack how it works and it operations
 
 //Blocking -- > when things are slow (doing time taking operation ex: running image Processing or running a loop 16k times)
-
+    -> the code that will block the eventloop
 
 synchronus --> to run line by line it goes other operation once the operation done top of the stack in js. 
 
